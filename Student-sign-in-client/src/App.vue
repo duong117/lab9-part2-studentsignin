@@ -30,19 +30,34 @@ export default {
     StudentTable,
     StudentMessage
   },
+  mounted(){
+    this.updateStudents()
+  },
   methods:{
     newStudentAdded(student){
-      this.students.push(student)
-      this.students.sort(function (s1,s2) {
-        return s1.name.toLowerCase()<s2.name.toUpperCase() ?-1:1
+      this.$student_api.addStudent(student).then(student=>{
+        this.updateStudents()
+      }).catch(err =>{
+        let msg = err.response.data.join(', ')
+        alert('Error adding student.\n' + msg)
       })
     },
     studentArrivedOrLeft(student){
-      this.message=student.present?'Welcome,':'Goodbye,'
-      this.name=student.name
+      this.$student_api.updateStudent(student).then(() => {
+        this.message=student.present ? 'Welcome,' : 'Goodbye,'
+        this.name=student.name
+        this.updateStudents()
+      })
     },
-    studentDeleted(student){
-      this.students=this.students.filter(function (s) {return s!=student})
+    studentDeleted(student) {
+      this.$student_api.deleteStudent(student.id).then(() => {
+        this.updateStudents()
+      })
+    },
+    updateStudents(){
+      this.$student_api.getAllStudents().then(students=>{
+        this.students=students
+      })
     }
   }
 }
