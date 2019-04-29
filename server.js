@@ -29,14 +29,12 @@ else {
         .catch(err => console.log(err))
 }
 
-
-//Initialize Student model
 let student = require('./model/student.js')(sequelize, Sequelize)
 
 var app = express()
 app.use(bodyParser.json())
 
-app.use(express.static(path.join(__dirname, 'student-sign-in-client','dist')))
+app.use(express.static(path.join(__dirname, 'Student-sign-in-client','dist')))
 
 app.use('/api', api_routes(student))
 
