@@ -1,4 +1,5 @@
 var express=require('express')
+var Sequelize=require('sequelize')
 module.exports=function(Student) {
     var router = express.Router()
 
