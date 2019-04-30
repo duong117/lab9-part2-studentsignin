@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93c628a3-0334-4973-85cc-80fec1794f64" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/css/app.1361d43d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/css/chunk-vendors.df051dd0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/js/app.33cf850f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/js/app.33cf850f.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/js/chunk-vendors.9da6a8e0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student-sign-in-client/dist/js/chunk-vendors.9da6a8e0.js.map" afterDir="false" />
+    <list default="true" id="93c628a3-0334-4973-85cc-80fec1794f64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -95,9 +87,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="932" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="y" value="5" />
+    <option name="width" value="1100" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +115,12 @@
               <item name="lab9" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab9" type="462c0819:PsiDirectoryNode" />
               <item name="Student-sign-in-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab9" type="462c0819:PsiDirectoryNode" />
+              <item name="Student-sign-in-client" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +171,7 @@
       <workItem from="1555901434927" duration="6477000" />
       <workItem from="1556561985555" duration="6742000" />
       <workItem from="1556568763361" duration="1109000" />
-      <workItem from="1556654944667" duration="1472000" />
+      <workItem from="1556654944667" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1555956528557</created>
@@ -202,15 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556567615352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1556658503858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556658503858</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35626000" />
+    <option name="totallyTimeSpent" value="36496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22670192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -224,7 +229,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18130311" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25354108" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.48441926" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -235,6 +240,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
@@ -345,7 +351,7 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
