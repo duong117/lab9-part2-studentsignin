@@ -15,7 +15,7 @@ module.exports=(sequelize,DataTypes) => {
             defaultValue:false
         }
     })
-    Student.sync({force:false}).then(() => {
+    Student.sync({force:true}).then(() => {
         console.log('synced table')
     })
 
